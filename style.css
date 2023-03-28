@@ -1,0 +1,68 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans&family=Poppins:wght@600&display=swap");
+
+body {
+  font-family: "Noto Sans", sans-serif;
+  color: white;
+  background-color: #2c3333;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Poppins", sans-serif;
+  color: white;
+  background-color: darkslategray;
+}
+a,
+a:visited,
+a:hover,
+a:active {
+  color: whitesmoke;
+  text-decoration: none;
+}
+
+a:hover {
+  background-color: #0e8388;
+  color: black;
+}
+
+nav ul {
+  list-style-type: none;
+}
+nav ul li {
+  padding: 12px;
+}
+
+/* a[href="#home"] {
+  color: black;
+  background-color: #0e8388;
+}
+
+a[href="#about"] {
+  color: black;
+  background-color: #0e8388;
+}
+
+a[href="#contact"] {
+  color: black;
+  background-color: #0e8388;
+} */
+
+section {
+  padding: 12px;
+  border: solid #0e8388 1px;
+}
+
+footer {
+  paddomg: 12px;
+  background-color: #0e8388;
+  color: #2c3333;
+  border: solid #2c3333 1px;
+}
+
+h2 {
+  color: #cbe4de;
+}
